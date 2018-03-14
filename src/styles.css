@@ -1,1 +1,86 @@
-/* You can add global styles to this file, and also import other style files */
+.idea .verde {
+  background-color: greenyellow; }
+.idea .rojo {
+  background-color: red; }
+.idea .romantica {
+  border-color: deeppink;
+  color: deeppink; }
+.idea .comedia {
+  border-color: aqua;
+  color: aqua; }
+.idea .terror {
+  border-color: black;
+  color: black; }
+.idea .aventuras {
+  border-color: brown;
+  color: brown; }
+.idea .cienfic {
+  border-color: dimgrey;
+  color: dimgrey; }
+.idea .comedia {
+  -webkit-border-style: solid;
+  -moz-border-style: solid;
+  -ms-border-style: solid;
+  border-style: solid;
+  -webkit-border-width: 6px;
+  -moz-border-width: 6px;
+  -ms-border-width: 6px;
+  border-width: 6px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+.idea .terror {
+  -webkit-border-style: solid;
+  -moz-border-style: solid;
+  -ms-border-style: solid;
+  border-style: solid;
+  -webkit-border-width: 8px;
+  -moz-border-width: 8px;
+  -ms-border-width: 8px;
+  border-width: 8px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  border-radius: 14px; }
+.idea .aventuras {
+  -webkit-border-style: solid;
+  -moz-border-style: solid;
+  -ms-border-style: solid;
+  border-style: solid;
+  -webkit-border-width: 10px;
+  -moz-border-width: 10px;
+  -ms-border-width: 10px;
+  border-width: 10px;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  -ms-border-radius: 19px;
+  border-radius: 19px; }
+.idea .cienfic {
+  -webkit-border-style: solid;
+  -moz-border-style: solid;
+  -ms-border-style: solid;
+  border-style: solid;
+  -webkit-border-width: 13px;
+  -moz-border-width: 13px;
+  -ms-border-width: 13px;
+  border-width: 13px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  border-radius: 12px; }
+.idea .romantica {
+  -webkit-border-style: solid;
+  -moz-border-style: solid;
+  -ms-border-style: solid;
+  border-style: solid;
+  -webkit-border-width: 12px;
+  -moz-border-width: 12px;
+  -ms-border-width: 12px;
+  border-width: 12px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+/*# sourceMappingURL=styles.css.map */

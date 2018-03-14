@@ -1,0 +1,77 @@
+@import 'auxiliar.scss';
+
+.idea {
+  .verde {
+    background-color: greenyellow;
+  }
+
+  .rojo {
+    background-color: red;
+  }
+
+  .romantica {
+    border-color: deeppink;
+    color: deeppink;
+  }
+
+  .comedia {
+    border-color: aqua;
+    color: aqua;
+  }
+
+  .terror {
+    border-color: black;
+    color: black;
+  }
+
+  .aventuras {
+    border-color: brown;
+    color: brown;
+  }
+
+  .cienfic {
+    border-color: dimgrey;
+    color: dimgrey;
+  }
+
+
+  @mixin estilo-bordes($style, $borderSize, $radius) {
+    -webkit-border-style: $style;
+    -moz-border-style: $style;
+    -ms-border-style: $style;
+    border-style: $style;
+
+
+    -webkit-border-width: $borderSize;
+    -moz-border-width: $borderSize;
+    -ms-border-width: $borderSize;
+    border-width: $borderSize;
+
+
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+  }
+
+
+  .comedia {
+    @include estilo-bordes(solid, 6px, 10px);
+  }
+
+  .terror {
+    @include estilo-bordes(solid, 8px, 14px);
+  }
+
+  .aventuras {
+    @include estilo-bordes(solid, 10px, 19px);
+  }
+
+  .cienfic{
+    @include estilo-bordes(solid, 13px, 12px);
+  }
+
+  .romantica{
+    @include estilo-bordes(solid, 12px, 10px);
+  }
+}
